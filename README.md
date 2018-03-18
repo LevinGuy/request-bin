@@ -1,4 +1,4 @@
-# Guy Levin - Request Bin
+# Request Bin
 
 Developers and testers often need to troubleshoot the HTTP requests that a client makes against an endpoint.
 This project aims to provide a tool that allows for the creation of a "bin": a temporary url,
