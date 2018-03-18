@@ -1,0 +1,10 @@
+applications:
+- name: RequestBin
+  memory: 1024MB
+  instances: 1
+  path: target/requestbin-1.0.0.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  timeout: 180
+
+env:
+   SPRING_PROFILES_ACTIVE: cloud
